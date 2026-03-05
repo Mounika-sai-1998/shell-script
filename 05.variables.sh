@@ -2,10 +2,10 @@
 
 echo " Enter UserName :: "
 
-read USERNAME
+read -s USERNAME
 
-echo " Enter Password :: "
+echo "Enter Password :: "
 
-read PASSWORD
+read -s PASSWORD
 
-echo " UserName is : $USERNAME , Password is $PASSWORD "
+echo  "UserName is : $USERNAME , Password is $PASSWORD "

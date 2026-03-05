@@ -1,8 +1,8 @@
 #!/bin/bash
 
-for (1..20)
+for i in (1..20)
 
 do 
-    print $i
+    echo $i
 
 done

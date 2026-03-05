@@ -11,4 +11,13 @@ else
      echo " it is a super user "
 fi  
 
-   dnf install mysql -y
+   dnf install mysqll -y
+
+if [ $USERID -ne 0 ]
+then 
+    echo " installation of mysql is failure..... "
+    exit 1
+
+fi
+     dnf install git -y
+    

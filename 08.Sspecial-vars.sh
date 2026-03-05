@@ -2,4 +2,4 @@
 
 echo " All variables : $@ "
 echo " number of variables passed : $# "
-  
+echo " Script name : $0 "  

@@ -11,4 +11,4 @@ else
 
 fi  
 
-   dnf install my sql -y
+   dnf install mysql -y

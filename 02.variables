@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo " Ramesh :: Hi Suresh ,  how are you ? "
+echo " Suresh :: Hello Ramesh , Iam fine . What about you ?"
+echo " Ramesh :: Yes, Iam Good . How The Things going on?
+echo " Suresh :: Yeah ! Everything is going well..."

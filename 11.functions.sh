@@ -17,10 +17,11 @@ else
      echo "it is a super user "
 fi 
 
- validate $? "intallation" 
+validate $? "intallation" 
+     dnf install mysql -y
 
-   dnf install mysql -y
-   dnf install git -y
+validate $? "intallation"
+    dnf install git -y
 
 
     

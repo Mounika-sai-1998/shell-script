@@ -1,6 +1,6 @@
 #!/bin/bash
 
-movies=("RRR" "A-AA" "F2")
+movies=("RRR" "Aaa" "Fida")
 
 echo " fist movie is : {$movies[0]} "
 echo " second movie is : {$movies[1]} "

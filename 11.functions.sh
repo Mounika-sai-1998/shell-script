@@ -19,12 +19,12 @@ then
 else 
      echo "it is a super user "
 fi 
-
-validate $? "intallation" 
      dnf install mysqll -y
-
-validate $? "intallation"
-    dnf install git -y
+     validate $? "intallation" 
+     
+     dnf install git -y
+     validate $? "intallation"
+   
 
 
     

@@ -3,9 +3,12 @@
 USERID=$(id -u)
 
 validate(){
-    echo " existing status is : $1 "
-    echo " what are you doing : $2 "
-
+if [ $1 -ne 0 ]
+then 
+    echo "$2 is failure ......"
+else
+     echo "$2 is success ...."
+fi
 }
 
 if [ $USERID -ne 0 ]

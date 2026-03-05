@@ -3,6 +3,6 @@
 $NO1=$1
 $NO2=$2
 
-SUM=$(($1+$2))
+SUM=$(($NO1+$NO2))
 
-echo " total of $1 and $2 is $SUM "
+echo " total of $NO1 and $NO2 is $SUM "

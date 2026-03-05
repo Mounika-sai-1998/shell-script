@@ -12,9 +12,8 @@ USERID=(id -u)
  fi
 
 
- for i in "$@"
+ for i in $@
 
  do
-    echo $i
-    
+    echo "package to install : $i"
  done

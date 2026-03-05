@@ -1,6 +1,7 @@
 #!/bn/bash
 
 USERID=$(id -u)
+TIMWSTAMP=$(date +%F-%H-%M-%S)
 
 validate(){
 if [ $1 -ne 0 ]

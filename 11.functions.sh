@@ -25,7 +25,7 @@ fi
      dnf install mysql -y &>>$LOGS_FILE
      validate $? "intallation" 
      
-     dnf install git -y
+     dnf install git -y &>>$LOGS_FILE
      validate $? "intallation"
    
 

@@ -14,14 +14,15 @@ N="\e[0m"
 VALIDATE(){
     if [ $1 -eq 0 ]
     then
-        echo -e "$2 is $R sucesss...$N"
+        echo -e "$2 is $G sucesss...$N"
     else
-        echo -e "$2 is $G failure....$N"
+        echo -e "$2 is $R failure....$N"
     fi
 }
 if [ $USERID -ne 0 ]
 then 
     echo "please run command with super user"
+    exit 1
 else
     echo "it is a super user"
 fi

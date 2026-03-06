@@ -22,12 +22,12 @@ fi
 for i in $@
 do
     echo "package to install : $i"
-    dnf list installed $i
+    dnf list installed $i &>>$LOGFILE
     if [ $? -eq 0 ]
     then
-        echo "$i already installed ..... SKIPPING" &>>$LOGFILE
+        echo "$i already installed ..... SKIPPING" 
     else
-        echo "$i not installed ...... need to install" &>>$LOGFILE
+        echo "$i not installed ...... need to install" 
     fi
 
 done

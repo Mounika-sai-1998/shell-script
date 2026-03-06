@@ -28,5 +28,6 @@ do
         echo "$i already installed ..... SKIPPING" &>>$LOGFILE
     else
         echo "$i not installed ...... need to install" &>>$LOGFILE
+    fi
 
 done

@@ -14,9 +14,9 @@ N="\e[0m"
 VALIDATE(){
     if [ $1 -eq 0 ]
     then
-        echo "$2 is sucesss..."
+        echo "$2 is $R sucesss...$N"
     else
-        echo "$2 is failure...."
+        echo "$2 is $G failure....$N"
     fi
 }
 if [ $USERID -ne 0 ]
@@ -34,7 +34,8 @@ do
     then
         echo  -e "$i already installed $Y..... SKIPPING $N" 
     else
-        echo -e "$i not installed $B...... need to install $N" 
+        dnf install $i -y &>>$LOGFILE 
+        VALIDATE $1 "installing  $i"
     fi
 
 done

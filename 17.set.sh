@@ -9,7 +9,7 @@ else
      echo "it is a super user "
 fi  
 
-dnf install mysql -y
+dnf install mysqlll -y
 dnf install git -y
 
 echo " is script proceeding? "

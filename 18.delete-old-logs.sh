@@ -14,4 +14,4 @@ else
 fi
 
 FILES=(find $SOURCE_DIRECTORY -name "*.log" -mtime +14)
-echo "Files tp delete : $FILES"
+echo "Files tO delete : $FILES"

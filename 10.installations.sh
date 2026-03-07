@@ -10,7 +10,7 @@ else
 fi  
 
 
-dnf install mysqlll -y
+dnf install mysql -y
 if [ $? -ne 0 ]
 then 
     echo "installation of mysql is failure..... "
@@ -28,4 +28,6 @@ then
 else
      echo " istallation of git is success ...."
 fi
+
+echo " is script proceeding? "
     

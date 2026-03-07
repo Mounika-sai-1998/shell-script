@@ -10,7 +10,7 @@ FOLDER=$(df -hT | grep xfs | awk -F " " '{print $7F}')
 if [ $USAGE -ge $DISK_THRESHOLD ]
 then
     echo " $FOLDER is more than $DISK_THRESHOLD . current usage : $USAGE "
-
+fi
 
 
 done <<< $DISK_USAGE

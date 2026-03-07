@@ -4,7 +4,7 @@ set -e
 error_handler(){
     echo "error occured at script line no $1 : $2"
 }
-trap 'error_handler $LINENO  $BASH_COMMAND' ERR
+trap 'error_handler $LINENO  "$BASH_COMMAND"' ERR
 
 USERID=$(id -u)
 if [ $USERID -ne 0 ]

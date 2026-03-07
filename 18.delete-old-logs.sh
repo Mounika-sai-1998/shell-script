@@ -8,7 +8,7 @@ N="\e[0m"
 
 if [ -d $SOURCE_DIRECTORY ]
 then 
-    echo "source directoty exists"
+    echo -e " $G source directoty exists $N"
 else 
      echo -e "$R please make sure $SOURCE_DIRECTORY exists $N"
 fi

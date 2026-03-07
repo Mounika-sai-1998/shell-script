@@ -8,5 +8,5 @@ if [ -d $SOURCE_DIRECTORY ]
 then 
     echo "source directoty exists"
 else 
-     echo -e "$R please make sure $SOURCE_DIRECORY exists $N"
+     echo -e "$R please make sure $SOURCE_DIRECTORY exists $N"
 fi

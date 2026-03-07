@@ -1,5 +1,11 @@
 #!/bn/bash
 set -e
+
+error_handler(){
+    echo "error occured at script line no : $1"
+}
+trap 'error_handler $LINENO' ERR
+
 USERID=$(id -u)
 if [ $USERID -ne 0 ]
 then 
